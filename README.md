@@ -15,9 +15,7 @@ DUPLA: Sophia e Lauriene
   
   class Usuário {
     +id: int
-    
     +nome: string
-    
     +email: string
   }
   
