@@ -7,19 +7,19 @@ DUPLA: Sophia e Lauriene
   Reserva --|> Sala : reserva
   Reserva --|> Usuário : reserva
   
-  class Sala {
+  Sala {
     +id: int
     +nome: string
     +capacidade: int
   }
   
-  class Usuário {
+  Usuário {
     +id: int
     +nome: string
     +email: string
   }
   
-  class Reserva {
+  Reserva {
     +id: int
     +data: Date
     +horaInicio: Time
