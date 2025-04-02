@@ -1,9 +1,9 @@
 # PROJETO-4-MODELAGEM-DE-UM-PEQUENO-SISTEMA-COM-UML-E-BPMN
 
 -------------------------------------SISTEMA DE REESERVA DE SALAS-------------------------------------------
-
-    DUPLA: Sophia e Lauriene
-
+ 
+ |DUPLA: Sophia e Lauriene|  
+ 
   Reserva --|> Sala : reserva
   
   Reserva --|> Usuário : reserva
