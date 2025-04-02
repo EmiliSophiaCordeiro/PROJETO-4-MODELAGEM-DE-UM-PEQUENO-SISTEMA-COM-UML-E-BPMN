@@ -5,24 +5,36 @@
 DUPLA: Sophia e Lauriene
 
   Reserva --|> Sala : reserva
+  
   Reserva --|> Usuário : reserva
   
-  Sala {
+  Sala
+  {
     +id: int
+    +-----------------+
     +nome: string
+    +-----------------+
     +capacidade: int
   }
+
   
-  Usuário {
+  Usuário
+  {
     +id: int
+    +-----------------+
     +nome: string
+    +-----------------+
     +email: string
   }
   
-  Reserva {
+  Reserva 
+  {
     +id: int
+    +-----------------+
     +data: Date
+    +-----------------+
     +horaInicio: Time
+    +-----------------+
     +horaFim: Time
   }
 
