@@ -9,12 +9,19 @@ DUPLA: Sophia e Lauriene
   Reserva --|> Usuário : reserva
   
   Sala
+  
   {
+  
     +id: int
+  
     +-----------------+
+    
     +nome: string
+    
     +-----------------+
+    
     +capacidade: int
+    
   }
 
   
