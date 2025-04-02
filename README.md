@@ -27,21 +27,35 @@ DUPLA: Sophia e Lauriene
   
   Usuário
   {
+  
     +id: int
+    
     +-----------------+
+    
     +nome: string
+    
     +-----------------+
+    
     +email: string
+    
   }
   
   Reserva 
   {
+  
     +id: int
+    
     +-----------------+
+    
     +data: Date
+    
     +-----------------+
+    
     +horaInicio: Time
+    
     +-----------------+
+    
     +horaFim: Time
+    
   }
 
